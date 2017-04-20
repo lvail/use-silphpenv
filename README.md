@@ -8,8 +8,8 @@ Simple php use of Sil/PhpEnv wrapper class.
 1. See `Makefile` for `make` options
 1. Runs in a Docker container
 
-### `make` options
-1. `make install` - will install the Sil/PhpEnv dependencies
-1. `make update` - will update project dependencies
+### `make` commands
+1. `make install` - installs the Sil/PhpEnv dependencies
+1. `make update` - updates project dependencies
 1. `make bash` - allows you to execute command line operations in the Docker container
 1. `make run` - runs src/main.php in the Docker container to test Sil/PhpEnv
