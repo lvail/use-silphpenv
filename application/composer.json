@@ -1,0 +1,6 @@
+{
+    "require": {
+        "php": ">=7.0",
+        "silinternational/php-env": "^1.0"
+    }
+}
