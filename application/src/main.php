@@ -9,7 +9,7 @@ try {
     $result1 = Env::get('COMPOSER_AUTH', 'LDV: something is wrong!');
     echo $result1 . PHP_EOL;
     
-    $result2 = Env::get('LDV', 'LDV: something went wrong!');
+    $result2 = Env::get('LDV', 'LDV: default value!');
     echo $result2 . PHP_EOL;
     
     $result3 = Env::requireEnv('LDV');
