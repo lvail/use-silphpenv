@@ -19,3 +19,12 @@ try {
     echo $exc->getTraceAsString() . PHP_EOL;
 }
 
+echo '-------------------------------' . PHP_EOL;
+echo '__DIR__=' . __DIR__ . PHP_EOL;
+echo 'dirname=' . dirname(__DIR__) . PHP_EOL;
+echo 'basename=' . basename(__DIR__) . PHP_EOL;
+echo 'pathinfo:' . PHP_EOL;
+var_dump(pathinfo(__DIR__));
+echo 'pathinfo:' . PHP_EOL;
+var_dump((pathinfo(__FILE__)));
+
